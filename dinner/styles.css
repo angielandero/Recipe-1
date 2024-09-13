@@ -1,0 +1,31 @@
+body {
+    /* Soft beige background */
+    background-color: #f0f0f0;
+    font-family: 'Merriweather', serif; /* A classic and elegant font */
+  }
+  
+  h1 {
+    /* Bold and dark title */
+    font-weight: bold;
+    color: #444; /* Dark gray color */
+    text-align: center;
+  }
+  
+  h2 {
+    /* Smaller and lighter subtitles */
+    font-weight: bold;
+    color: #777; /* Medium gray color */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Light gray border */
+  }
+  
+  p {
+    /* Add a slight margin between paragraphs */
+    margin-bottom: 20px;
+  }
+  
+  h2 + p {
+    /* Add a slight margin between subtitles and paragraphs */
+    margin-top: 20px;
+  }

@@ -1,0 +1,34 @@
+body {
+    /* Soft beige background */
+    background-color: #f0f0f0;
+    font-family: 'Merriweather', serif; /* A classic and elegant font */
+  }
+  
+  h1 {
+    /* Bold and dark title */
+    font-weight: bold;
+    color: #444; /* Dark gray color */
+    text-align: center;
+  }
+  
+  ul {
+    /* Add a slight margin between list items */
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    /* Add a slight margin between list items */
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  
+  li:before {
+    /* Add a bullet point before each list item */
+    content: "\2022";
+    color: #777;
+    font-size: 18px;
+    margin-right: 10px;
+  }

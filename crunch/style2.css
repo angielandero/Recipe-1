@@ -1,0 +1,54 @@
+body {
+    /* Soft beige background */
+    background-color: #f0f0f0;
+    font-family: 'Merriweather', serif; /* A classic and elegant font */
+  }
+  
+  h1 {
+    /* Bold and dark title */
+    font-weight: bold;
+    color: #444; /* Dark gray color */
+    text-align: center;
+  }
+  
+  h2 {
+    /* Smaller and lighter subtitles */
+    font-weight: bold;
+    color: #777; /* Medium gray color */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Light gray border */
+  }
+  
+  ul {
+    /* Remove default bullet points and add a subtle border */
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  li {
+    /* Add a slight margin between list items */
+    margin-bottom: 10px;
+  }
+  
+  li:before {
+    content: '›'; /* A simple arrow symbol */
+    font-size: 18px;
+    margin-right: 10px;
+    color: #777; /* Match the subtitle color */
+  }
+  
+  li:hover {
+    /* Add a subtle hover effect */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  h2 + ul {
+    /* Add a slight margin between subtitles and lists */
+    margin-top: 20px;
+  }

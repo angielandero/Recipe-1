@@ -1,0 +1,37 @@
+body {
+    /* Soft pink background */
+    background-color: #ffe6f2;
+    font-family: 'Lato', sans-serif; /* A clean and elegant font */
+  }
+  
+  h1 {
+    /* Decorative font for the title */
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4; /* A bright, playful pink */
+    text-align: center;
+  }
+  
+  ul {
+    /* Remove default bullet points and add a cute raspberry icon */
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    /* Add a raspberry icon before each list item */
+    margin-bottom: 10px;
+  }
+  
+  li:before {
+    content: '\1F352'; /* Raspberry emoji */
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff69b4; /* Match the title color */
+  }
+  
+  li:hover {
+    /* Add a subtle hover effect */
+    background-color: #ffc5c5; /* Light pink background */
+    border-radius: 10px;
+    padding: 10px;
+  }
